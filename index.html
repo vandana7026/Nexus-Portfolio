@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Software Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="placeholder"></div>
+
+    <header class="fixed-header">
+        <h1>NEXUS</h1>
+    </header>
+
+    <nav class="fixed-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#internship">Internship</a>
+        <a href="#service">Service</a>
+        <a href="#qna">Q & A</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section id="home">
+    <div class="home-content">
+        <div class="text-content">
+            <h2>Welcome to Nexus Software</h2>
+            <p>A premier private software company dedicated to revolutionizing Digital platforms. As leaders in the field, Nexus seamlessly combines innovative technology with a commitment to private learning, ensuring a dynamic and personalized educational experience for all.</p>
+            <br>
+            <a href="#service" class="discover-button">Discover</a>
+        </div>
+        <div class="image-content">
+            <img src="image1.JPG" alt="Home Nexus Software Image">
+        </div>
+    </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="about-content">
+          <div class="image-content">
+              <img src="image2.JPG" alt="About Nexus Software Image">
+          </div>
+          <div class="text-content">
+              <h2>We design success for your future.</h2>
+              <p><strong>Nexus, where standards and quality converge to redefine excellence in the digital realm.</strong></p>
+              <ul>
+                  <li>Pioneering standards and quality in web products (Nexus Software)</li>
+                  <li>Providing a dynamic and personalized educational experience (Nexus Learning)</li>
+                  <li>Elevating brands and fostering growth (Nexus Media)</li>
+              </ul>
+          </div>
+      </div>
+    </section>
+
+    <section id="internship">
+    <div class="internship-content">
+        <h3>-Join our team-</h3>
+        <h1 class="career-heading">Career</h1>
+        <p>Embark on a journey of mutual growth with Nexus, where our success intertwines with yours.</p>
+
+        <div class="internship-box left-box" onmouseover="highlightBox(this)" onmouseout="removeHighlight(this)">
+            <h4 class="box-heading">Internship with Welcome Kit</h4>
+            <p>College students and beginners can apply for this internship.</p>
+            <button class="learn-more-button" onclick="showDetails('internship-welcome-kit-details')">Learn more...</button>
+        </div>
+
+        <div id="internship-welcome-kit-details" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="hideDetails('internship-welcome-kit-details')">&times;</span>
+            <h2>Internship with Welcome Kit</h2>
+            <p>This internship is designed for college students and beginners who are passionate about entering the field of software development. Here are some details:</p>
+            <ul>
+                <li><strong>Duration:</strong> 3 months</li>
+                <li><strong>Requirements:</strong> Basic programming knowledge, eagerness to learn, and strong communication skills</li>
+                <li><strong>What you'll learn:</strong> Hands-on experience in web development, collaboration with experienced professionals, and access to our Welcome Kit</li>
+            </ul>
+            <h3>Application Process</h3>
+            <ol>
+                <li>Submit your resume and cover letter via our online application form.</li>
+                <li>Shortlisted candidates will be contacted for an interview.</li>
+                <li>Selected interns will receive further instructions and details about the Welcome Kit.</li>
+            </ol>
+            <p>We look forward to having you join our team and embark on a rewarding internship journey!</p>
+        </div>
+        </div>
+
+        <div class="internship-box right-box" onmouseover="highlightBox(this)" onmouseout="removeHighlight(this)">
+            <h4 class="box-heading">Internship</h4>
+            <p>1 Month internship for freshers and students for career development.</p>
+            <button class="learn-more-button" onclick="showDetails('internship-details')">Learn more...</button>
+        </div>
+
+        <div id="internship-details" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="hideDetails('internship-details')">&times;</span>
+                <h2>Internship</h2>
+                <p>This 1-month internship is tailored for freshers and students seeking career development opportunities. Here are some details:</p>
+                <ul>
+                    <li><strong>Duration:</strong> 1 month</li>
+                    <li><strong>Eligibility:</strong> Open to freshers and students from any discipline</li>
+                    <li><strong>Benefits:</strong> Gain hands-on experience, mentorship, and insights into the industry</li>
+                </ul>
+                <h3>Application Process</h3>
+                <ol>
+                    <li>Complete the online application form.</li>
+                    <li>Shortlisted candidates will be notified for a brief interview.</li>
+                    <li>Selected interns will receive further instructions and onboarding details.</li>
+                </ol>
+                <p>We invite you to apply and kickstart your career with our internship program!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="service">
+        <div class="service-container">
+            <h3>-Nexus Product-</h3>
+            <h1 class="services-heading">Services</h1>
+            <p>Unlock innovation with our cutting-edge software solutions and services tailored to elevate your digital presence.</p>
+
+            <div class="service-boxes">
+                <div class="service-box" onmouseover="highlightBox(this)" onmouseout="removeHighlight(this)">
+                    <h3>Software & Service</h3>
+                    <p>Unlock innovation with our cutting-edge software solutions and services tailored to elevate your digital presence.</p>
+                </div>
+
+                <div class="service-box" onmouseover="highlightBox(this)" onmouseout="removeHighlight(this)">
+                    <h3>Digital Marketing</h3>
+                    <p>Navigate the digital landscape with our strategic digital marketing services, where every click propels your brand forward.</p>
+                </div>
+
+                <div class="service-box" onmouseover="highlightBox(this)" onmouseout="removeHighlight(this)">
+                    <h3>E-Learning</h3>
+                    <p>Empower minds through our dynamic E-learning platforms, where knowledge meets technology for a transformative experience.</p>
+                </div>
+
+                <div class="service-box" onmouseover="highlightBox(this)" onmouseout="removeHighlight(this)">
+                    <h3>Business Strategies</h3>
+                    <p>Strategic vision meets actionable plans - trust Nexus for business strategies that pave the way for sustained growth and success.</p>
+                </div>
+
+                <div class="service-box" onmouseover="highlightBox(this)" onmouseout="removeHighlight(this)">
+                    <h3>Media & Branding</h3>
+                    <p>Crafting compelling narratives and building impactful brands, Nexus Media ensures your story resonates in the digital world.</p>
+                </div>
+
+                <div class="service-box" onmouseover="highlightBox(this)" onmouseout="removeHighlight(this)">
+                    <h3>Career Growth</h3>
+                    <p>Invest in your professional journey with Nexus, where personalized career growth solutions guide you towards unprecedented success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="qna">
+        <div class="qna-container">
+            <h2>Discover Frequently Asked Questions?</h2>
+            <div class="qna-box" onclick="toggleAnswer(this)">
+                <h3>01. Who can apply for the Nexus internship?</h3>
+                <p class="answer">Nexus internships extend a warm invitation to driven college students and recent graduates who bring not only powerful skill sets but also a passion for continuous learning. If you are enthusiastic about making a meaningful impact and are committed to personal and professional growth, we encourage you to apply. Our internship program is designed for individuals with a diverse range of backgrounds, fostering an inclusive environment where creativity and ambition flourish.</p>
+                <button class="toggle-answer">+</button>
+            </div>
+            <div class="qna-box" onclick="toggleAnswer(this)">
+                <h3>02. What are the benefits of applying for a Nexus internship?</h3>
+                <p class="answer">Embarking on a Nexus internship opens doors to a dynamic learning experience, allowing participants to engage with real-world projects that bridge the gap between theory and application. Our program is not just about tasks; it's a journey guided by mentorship, offering valuable insights and personal growth. Interns also have the opportunity to build connections within the industry, establishing a network that extends beyond the duration of the internship. For those who demonstrate exceptional skills and commitment, the chance for Full-Time Employment (FTE) conversion awaits, providing a potential pathway for a lasting and impactful career at Nexus. Join us in this transformative experience and elevate your professional journey with Nexus.</p>
+                <button class="toggle-answer">+</button>
+            </div>
+            <div class="qna-box" onclick="toggleAnswer(this)">
+                <h3>03. What does Nexus E-Learning entail?</h3>
+                <p class="answer">Nexus Learning is an E-learning company dedicated to enriching lives through knowledge and skill development. Our commitment extends beyond virtual classrooms, as we provide top-accredited study materials and a welcome kit delivered to your doorstep, enhancing your learning experience. Upon course completion, Nexus Learning facilitates a unique opportunity with a 1-month free internship in software companies, empowering you to apply your newfound skills in real-world settings and jumpstart your professional journey.</p>
+                <button class="toggle-answer">+</button>
+            </div>
+            <div class="qna-box" onclick="toggleAnswer(this)">
+                <h3>04. What are the products offered by Nexus Software?</h3>
+                <p class="answer">Nexus Software boasts a versatile product lineup comprising Nexus Software, Nexus Learning, and Nexus Media. These solutions cater to diverse needs, from advanced software development to innovative e-learning platforms and comprehensive media services. Our commitment to excellence is reflected in each product, ensuring a seamless integration of technology and quality across the Nexus spectrum. Choose Nexus for a holistic digital experience that spans software, education, and media.</p>
+                <button class="toggle-answer">+</button>
+            </div>
+            <div class="qna-box" onclick="toggleAnswer(this)">
+                <h3>05. What is Nexus media?</h3>
+                <p class="answer">Nexus Media is a digital company focusing on business strategy, branding, and growth. We take a holistic approach, managing every aspect of your business for sustainable development. Additionally, we expertly handle social media pages on platforms such as Instagram and Facebook, as well as career platforms like LinkedIn, ensuring a comprehensive and impactful online presence for your brand.</p>
+                <button class="toggle-answer">+</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="image-container">
+            <img src="image5.jpg" alt="Nexus Image 1">
+            <img src="image6.jpg" alt="Nexus Image 2">
+          </div>
+        <div class="linkedin-section">
+            <h3>Connect with Me on LinkedIn</h3>
+            <a href="https://www.linkedin.com/company/the-nexus-group-inc/" target="_blank">
+              <img src="image4.png" alt="LinkedIn Logo">
+            </a>
+            <p>Find more about professional background on LinkedIn.</p>
+          </div>
+        
+          <div class="instagram-section">
+            <h3>Connect with Me on Instagram</h3>
+            <a href="https://www.instagram.com/nexuskoramangala?igsh=MWpqbWtudm1xNGx6Zw==" target="_blank">
+              <img src="image3.jpg" alt="Instagram Logo">
+            </a>
+            <p>Find more about professional background on Instagram.</p>
+          </div>
+          <div<p><strong>Visit these sites to know more about Nexus</strong></p>
+    
+      <a href="https://www.nexusselecttrust.com/" target="_blank">Nexusselecttrust</a>
+      <a href="https://www.nexusmalls.com/" target="_blank">Nexusmalls</a>
+      <a href="https://nexus.io/" target="_blank">Nexus.io</a>
+      <a href="https://nexus.hexagon.com/" target="_blank">Hexagon Nexus</a>
+    </div>  
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>NEXUS</h2>
+                <p>From code to classroom and media mastery, Nexus empowers excellence across the digital landscape, harmonizing software, learning, and media for a holistic journey into the future.</p>
+
+                <h2>Contact Us</h2>
+                <p>Coimbatore south, Tamilnadu<br>
+                info.nexusintern@gmail.com<br>
+                +91 8778993293</p>
+            </div>
+
+            <div class="contact-form">
+                <form>
+                    <p class="reach-out">Have questions or want to get in touch? Reach out to us!</p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nexus Software. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
